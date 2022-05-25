@@ -1,3 +1,10 @@
+DROP TABLE if exists departments;
+DROP TABLE if exists dept_emp;
+DROP TABLE if exists dept_manager;
+DROP TABLE if exists employees;
+DROP TABLE if exists salaries;
+DROP TABLE if exists titles;
+
 CREATE TABLE "departments" (
     "dept_no" VARCHAR   NOT NULL,
     "dept_name" VARCHAR   NOT NULL,
